@@ -23,12 +23,20 @@
 //list.size();
 //list.Display();
 
-using DataStructures.Stacks;
-Stack stack = new Stack();
-stack.Push(70);
-stack.Push(30);
-stack.Push(56);
-stack.Display();
-stack.Peek();
-stack.Pop();
-stack.IsEmpty();
+//using DataStructures.Stacks;
+//Stack stack = new Stack();
+//stack.Push(70);
+//stack.Push(30);
+//stack.Push(56);
+//stack.Display();
+//stack.Peek();
+//stack.Pop();
+//stack.IsEmpty();
+
+using DataStructures.Queues;
+Queue queue = new Queue();
+queue.Enqueue(56);
+queue.Enqueue(30);
+queue.Enqueue(70);
+queue.Dequeue();
+queue.Display();
