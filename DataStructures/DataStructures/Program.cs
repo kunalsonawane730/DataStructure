@@ -1,0 +1,24 @@
+﻿// See https://aka.ms/new-console-template for more information
+using DataStructures.LinkedList;
+Console.WriteLine("Hello, World!");
+LinkedLists list = new LinkedLists();
+list.Add(56);
+list.Add(30);
+list.Add(70);
+list.Display();
+list.InsertAtPerticularPostion(2, 40);
+list.Display();
+list.AddingInReverse(70);
+list.AddingInReverse(30);
+list.AddingInReverse(40);
+list.AddingInReverse(56);
+list.Display();
+list.RemoveFirstNode();
+list.Display();
+list.RemoveLastNode();
+list.Display();
+list.Search(56);
+list.DeleteAtPerticularPosition(2);
+list.Display();
+list.size();
+list.Display();
